@@ -24,10 +24,8 @@ class Bird {
         this.sex = sex
     }
     speak(){
-        debugger
         switch (true){
             case this.sex === "male":
-                debugger
                 return `It's me! ${this.name}, the parrot!`
                 break 
             case this.sex === "female":
